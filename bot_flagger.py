@@ -33,10 +33,10 @@ exclude_bot_segment='<SEGMENT ID>'
 bot_metric='<CALCULATED METRIC ID>'
  
 ip_variable='<EVAR/PROP# FOR CAPTURING IP ADDRESS>'
-ipClassVar='<CLASSIFICATION NAME FOR ABOVE EVAR/PROP>'
+ipClassVar='<CLASSIFICATION NAME FOR IP EVAR/PROP>'
  
 ua_variable='<EVAR/PROP# FOR CAPTURING USER AGENT>'
-uaClassVar='<EVAR/PROP# FOR CAPTURING IP ADDRESS>'
+uaClassVar='<CLASSIFICATION NAME FOR UA EVAR/PROP>'
  
  
 email='<EMAIL>' # for classification
