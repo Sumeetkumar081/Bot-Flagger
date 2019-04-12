@@ -29,4 +29,4 @@ Creating access token for Omniture API and then calling the classification [func
 
 
 ### Calling the functions
-This is the part where all the action happens. runReport is called to gett the bot IPs and UAs from yesterday, then omniSchema prepares the schema and finally botClassifications is called to classify those IPs and UAs as bots.
+This is the part where all the action happens. runReport is called to gett the bot IPs and UAs from yesterday, then omniSchema prepares the schema and finally botFlagger is called to classify those IPs and UAs as bots.
