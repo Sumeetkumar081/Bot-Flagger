@@ -89,7 +89,7 @@ def omniSchema(var,classVar):
 '''    
 --------------------------------Classification API-----------------------------------------------   
 '''
-def boomClassifications(rows,schema): 
+def botFlagger(rows,schema): 
       
          
         def data(x):
@@ -241,9 +241,9 @@ def boomClassifications(rows,schema):
 ip_list=runReport(ip_variable)
 if ip_list!=[]:
     schema=omniSchema(ip_variable,ipClassVar)
-    boomClassifications(ip_list,schema)
+    botFlagger(ip_list,schema)
  
 ua_list=runReport(ua_variable)
 if ua_list!=[]:
     schema=omniSchema(ua_variable,uaClassVar)
-    boomClassifications(ua_list,schema)
+    botFlagger(ua_list,schema)
