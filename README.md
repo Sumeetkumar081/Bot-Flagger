@@ -1,7 +1,8 @@
 # Bot-Flagger
+## How does this work? 
 
 
-## How does this work?
+### Importing the libraries
 
 Start by importing libraries  
 
